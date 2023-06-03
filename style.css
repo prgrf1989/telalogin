@@ -127,7 +127,6 @@ footer img:hover{
 {
  body{
     background: rgba(191, 253, 255, 0.826);
-    transform: none;
  }
 
  section{
@@ -136,6 +135,10 @@ footer img:hover{
 
  footer{
     margin-top: -250px;
+ }
+
+ footer img:hover{
+    transform: none;
  }
 
  #botao{
