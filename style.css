@@ -122,3 +122,10 @@ footer li{
 footer img:hover{
     transform: translateY(-7px);
 }
+/*--MEDIA QUERIES: PARA DEFINIR VISUAL PARA OUTROS TAMANHOS DE TELA.--*/
+@media (max-width: 500px)
+{
+ body{
+    background: red;
+ }
+}
