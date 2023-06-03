@@ -99,6 +99,13 @@ section input::placeholder{
 
 footer{
     font-weight: bolder;
+    margin-top: -100px;
+}
+
+footer img{
+    width: 25px;
+    transition: .2s;
+    margin-top: 9px;
 }
 
 footer ul{
@@ -110,4 +117,8 @@ footer li{
     align-items: center;
    display: inline;
    padding: 5px;
+}
+
+footer img:hover{
+    transform: translateY(-7px);
 }
