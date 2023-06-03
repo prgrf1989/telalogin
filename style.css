@@ -126,8 +126,16 @@ footer img:hover{
 @media (max-width: 500px)
 {
  body{
-    background: rgb(81, 246, 252);
+    background: rgba(191, 253, 255, 0.826);
     transform: none;
+ }
+
+ section{
+    margin-top: -10px;
+ }
+
+ footer{
+    margin-top: -250px;
  }
 
  #botao{
